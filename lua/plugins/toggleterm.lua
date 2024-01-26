@@ -1,3 +1,5 @@
+local Util = require("util")
+
 return {
   {
     "akinsho/toggleterm.nvim",
@@ -9,13 +11,7 @@ return {
       })
     end,
     keys = {
-      {
-        "<leader>to",
-        function()
-          vim.cmd("ToggleTerm")
-        end,
-        desc = "Open Terminal",
-      },
+      Util.K("<leader>to", "ToggleTerm", "Open Terminal")
     }
   }
 }

@@ -2,7 +2,13 @@ return {
     {
         "navarasu/onedark.nvim",
         config = function()
-            require('onedark').load()
+            vim.cmd("colorscheme onedark")
         end
+    },
+    {
+        "morhetz/gruvbox",
+    },
+    {
+        "NTBBloodbath/doom-one.nvim"
     }
 }
