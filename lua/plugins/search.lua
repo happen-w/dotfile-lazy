@@ -5,11 +5,11 @@ return {
         "phaazon/hop.nvim",
         branch = 'v2',
         config = function()
-            require 'hop'.setup {
+            require 'hop'.setup({
                 keys = 'etovxqpdygfblzhckisuran',
                 case_insensitive = false,
                 multi_windows = true,
-            }
+            })
         end,
         keys = {
             Util.K("ss", "HopChar2", "Search 2 Char"),
