@@ -21,8 +21,8 @@ vim.o.smartcase = true
 -- 折叠代码
 --vim.o.foldmethod='indent'
 -- undo持久化
---vim.o.undofile = true
---vim.opt.undodir = os.getenv("HOME") .. '/.config/nvim/.undodir'
+vim.o.undofile = true
+vim.opt.undodir = os.getenv("HOME") .. '/.config/nvim/.undodir'
 
 vim.o.wildignorecase = true
 --vim.g.leetcode_browser="chrome"
