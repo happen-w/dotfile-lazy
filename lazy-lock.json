@@ -5,6 +5,7 @@
   "cmp-nvim-lsp": { "branch": "main", "commit": "5af77f54de1b16c34b23cba810150689a3a90312" },
   "cmp-path": { "branch": "main", "commit": "91ff86cd9c29299a64f968ebb45846c485725f23" },
   "cmp_luasnip": { "branch": "master", "commit": "05a9ab28b53f71d1aece421ef32fee2cb857a843" },
+  "cscope_maps.nvim": { "branch": "main", "commit": "d75d26f45ce2d57fa85ed807efb69c607e1617b7" },
   "doom-one.nvim": { "branch": "main", "commit": "a43528cbd7908ccec7af4587ec8e18be149095bd" },
   "friendly-snippets": { "branch": "main", "commit": "aced40b66b7bae9bc2c37fd7b11841d54727a7b0" },
   "gruvbox": { "branch": "master", "commit": "f1ecde848f0cdba877acb0c740320568252cc482" },
