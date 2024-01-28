@@ -14,8 +14,14 @@ GdbSessionInit = function()
   -- vim.cmd(":set wrap")
 
   -- move cursor back to gdb terminal
-  vim.cmd("wincmd l")
+  -- vim.cmd("wincmd l")
   -- vim.cmd(":wincmd k")
+
+  vim.cmd("wincmd l")
+  
+  vim.cmd(":belowright GdbCreateWatch info locals")
+
+  vim.cmd(":wincmd k")
 end
 
 return {

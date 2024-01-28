@@ -2,7 +2,7 @@ local Util = require("util")
 
 Last_quit = function()
   if #vim.api.nvim_list_wins() == 1 and vim.b.NERDTree and vim.b.NERDTree.isTabTree then
-    vim.cmd("quit")
+    vim.cmd([[quit]])
   end
 end
 

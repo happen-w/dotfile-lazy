@@ -33,3 +33,6 @@ map('n', "\\n", ":noh<CR>", opt)
 map("n", "<Tab>", ":bn<CR>", opt);
 map("n", "<S-Tab>", ":bp<CR>", opt);
 map("n", "<leader><Tab>", ":Bw<CR>", opt);
+
+
+map("n", "'", ":", opt);
