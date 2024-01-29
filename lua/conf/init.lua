@@ -15,6 +15,11 @@ map("n", "<C-j>", "<C-w><C-j>", opt)
 map("n", "<C-k>", "<C-w><C-k>", opt)
 map("n", "<C-l>", "<C-w><C-l>", opt)
 
+map("n", "<C-M-h>", "<C-W>H", opt)
+map("n", "<C-M-j>", "<C-W>J", opt)
+map("n", "<C-M-k>", "<C-W>K", opt)
+map("n", "<C-M-l>", "<C-W>L", opt)
+
 -- insert下保存
 map("i", "<C-s>", "<Esc>:w<CR>a", opt)
 
