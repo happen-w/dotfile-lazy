@@ -2,7 +2,7 @@ return {
     "nvim-treesitter/nvim-treesitter",
     config = function()
         require("nvim-treesitter.configs").setup ({
-            ensure_installed = { "c", "lua"},
+            ensure_installed = { "c", "lua", "python"},
             -- 启用代码高亮功能
             highlight = {
                 enable = true,
@@ -14,7 +14,7 @@ return {
                 keymaps = {
                     init_selection = '<CR>',
                     node_incremental = '<CR>',
-                    node_decremental = '<BS>',
+                    node_decremental = '<Del>',
                     scope_incremental = '<TAB>',
                 }
             },

@@ -40,10 +40,10 @@ local M = {
             behavior = cmp.ConfirmBehavior.Replace,
             select = true,
           }),
-          ['<Tab>'] = select_jump(cmp, 1),
+          ['<M-Tab>'] = select_jump(cmp, 1),
           ['<S-Tab>'] = select_jump(cmp, -1),
-          ['`'] = select_jump(cmp, 4),
-          ['~'] = select_jump(cmp, -4)
+          -- ['`'] = select_jump(cmp, 4),
+          -- ['~'] = select_jump(cmp, -4)
         }),
         sources = {
           { name = 'luasnip' },

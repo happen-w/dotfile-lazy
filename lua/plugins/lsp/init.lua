@@ -29,7 +29,19 @@ return {
       })
       lspConfig['lua_ls'].setup(require("plugins.lsp.lua_ls"))
       lspConfig['clangd'].setup({})
-      require'lspconfig'.pyright.setup({})
+      -- require'lspconfig'.pyright.setup({})
+      require 'lspconfig'.pylsp.setup({
+        settings = {
+          pylsp = {
+            plugins = {
+              pycodestyle = {
+                ignore = { 'W391' },
+                maxLineLength = 100
+              }
+            }
+          }
+        }
+      })
     end
   },
 
