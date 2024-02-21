@@ -30,6 +30,7 @@ return {
       lspConfig['lua_ls'].setup(require("plugins.lsp.lua_ls"))
       lspConfig['clangd'].setup({})
       -- require'lspconfig'.pyright.setup({})
+      -- pip install "python-lsp-server[all]"
       require 'lspconfig'.pylsp.setup({
         settings = {
           pylsp = {
