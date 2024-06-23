@@ -41,3 +41,12 @@ map("n", "<leader><Tab>", ":Bw<CR>", opt);
 
 
 map("n", "'", ":", opt);
+
+
+
+
+
+-- 调整窗口大小
+map('n',"<A-=>", ":vertical resize +3<CR>", opt);
+map('n',"<A-->", ":vertical resize -3<CR>", opt);
+
